@@ -1,0 +1,36 @@
+1. Jelaskan apa yang dimaksud dengan dokumen root ?
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori
+C:\xampp\htdocs ? Jelaskan jawaban anda
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push
+dan checkout
+4. Jelaskan perbedaan antara GitHub dan GitLab
+5. Apa bedanya variable user dengan variable system ?
+6. Apa persamaan variable system dengan variable constant ?
+
+jawaban 
+1. Suatu direktori utama di mana server web mencari file dokumen yang akan dikirimkan kepada klien (browser), dimana titik awal halaman web dan sumber daya lainnya disajikan dalam sebuah situs web. Misalnya, dalam server Apache, file seperti index.html atau index.php akan diambil dari dokumen root.
+2. Tidak harus, dikarenakan secara default Apache dalam XAMPP menggunakan C:\xampp\htdocs sebagai dokumen root, lokasi ini dapat diubah dengan mengedit file konfigurasi Apache (httpd.conf). Direktori DocumentRoot dalam file ini memungkinkan pengguna untuk menentukan lokasi lain sebagai dokumen root.
+3. 
+git init → Menginisialisasi repository Git baru dalam sebuah direktori.
+git clone → Menggandakan (mengunduh) repository yang sudah ada ke dalam direktori lokal.
+git remote → Mengelola koneksi ke repository jarak jauh (remote repository), misalnya menambahkan atau melihat remote repo.
+git add → Menambahkan perubahan dalam file ke staging area sebelum dilakukan commit.
+git commit → Menyimpan snapshot dari perubahan dalam repository dengan pesan yang menjelaskan perubahan tersebut.
+git push → Mengunggah perubahan dari repository lokal ke repository remote (misalnya GitHub atau GitLab).
+4.
+GitHub :
+Layanan hosting Git berbasis cloud yang populer untuk kolaborasi pengembangan perangkat lunak.
+Fitur CI/CD perlu menggunakan layanan eksternal seperti GitHub Actions.
+Sering digunakan untuk proyek open-source.
+Gratis dengan opsi berbayar untuk fitur tambahan.
+Sedangkan GitLab ;
+Alternatif GitHub dengan fitur manajemen proyek dan CI/CD bawaan.
+Memiliki fitur CI/CD bawaan tanpa perlu layanan eksternal.
+Lebih sering digunakan dalam lingkungan perusahaan (enterprise).
+Bisa di-host sendiri (self-hosted) atau digunakan melalui layanan cloud GitLab.
+5. 
+Variable User → Variabel lingkungan (environment variables) yang hanya berlaku untuk pengguna tertentu dalam sistem. Contohnya, jika seorang pengguna membuat variabel JAVA_HOME, hanya pengguna tersebut yang dapat menggunakannya.
+Variable System → Variabel yang berlaku untuk semua pengguna dalam sistem. Variabel ini biasanya berkaitan dengan konfigurasi sistem secara keseluruhan, seperti PATH, yang menentukan direktori mana yang dapat dieksekusi dari terminal atau command prompt.
+6. 
+Keduanya bersifat global → Variable system berlaku di seluruh sistem, sedangkan constant (konstanta) berlaku di seluruh program yang menggunakannya.
+Tidak berubah secara langsung → Variable system biasanya tetap dan hanya dapat diubah dengan izin administrator, sementara constant dalam pemrograman tidak bisa diubah setelah dideklarasikan.
