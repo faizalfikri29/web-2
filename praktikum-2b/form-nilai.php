@@ -1,13 +1,3 @@
-<?php
-$proses = $_GET['proses'];
-$nama_siswa = $_GET['nama_lengkap'];
-$matkul = $_GET['matkul'];
-$nilai_uts = $_GET['nilai_uts'];
-$nilai_uas = $_GET['nilai_uas'];
-$nilai_tugas = $_GET['nilai_tugas'];
-
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,14 +8,14 @@ $nilai_tugas = $_GET['nilai_tugas'];
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<form method="GET">
+<form method="GET" action="data-nilai.php" class="border p-4 rounded">
 <fieldset class="border border-dark p-3 rounded" style="background-color: Aqua;">
 <legend class="float-none w-auto px-3 fw-bold h3">Form Nilai Siswa/i</legend>
   <div class="form-group row">
     <label for="nama_lengkap" class="col-4 col-form-label">Nama Lengkap</label> 
     <div class="col-8">
       <div class="input-group">
-        <input id="nama_lengkap" name="nama_lengkap" placeholder="Nama Lengkap" type="text" required="required" class="form-control"> 
+        <input id="nama_lengkap" name="nama" placeholder="Nama Lengkap" type="text" required="required" class="form-control"> 
         <div class="input-group-append">
           <div class="input-group-text"></div>
         </div>
@@ -73,7 +63,7 @@ $nilai_tugas = $_GET['nilai_tugas'];
   </div> 
   <div class="form-group row">
     <div class="offset-4 col-8">
-      <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary" value="Simpan" name="proses">Simpan</button>
     </div>
   </div>
 </fieldset>
