@@ -4,13 +4,13 @@
 require_once "data-form-regis.php";
 
 // menangkap semua data yang dikirimkan dari form dengan variable global $_POST karena method form menggunakan POST
-$nim = $_POST['nim'];
-$nama = $_POST['nama_lengkap'];
-$jk = $_POST['jenis_kelamin'];
-$prodi = $_POST['program_studi'];
-$skill_pilihan = $_POST['skills'];
-$email = $_POST['email'];
-$domisili = $_POST['domisili'];
+$nim = isset($_POST['nim']) ? $_POST['nim'] : null;
+$nama = isset($_POST['nama_lengkap']) ? $_POST['nama_lengkap'] : null;
+$jk = isset($_POST['jenis_kelamin']) ? $_POST['jenis_kelamin'] : null;
+$prodi = isset($_POST['program_studi']) ? $_POST['program_studi'] : null;
+$skill_pilihan = isset($_POST['skills']) ? $_POST['skills'] : [];
+$email = isset($_POST['email']) ? $_POST['email'] : null;
+$domisili = isset($_POST['domisili']) ? $_POST['domisili'] : null;
 
 // menghitung jumlah skor skill yang dimiliki menggunakan fungsi skor_skill
 $skor_skill = skor_skill($skill_pilihan, $ar_skill);
