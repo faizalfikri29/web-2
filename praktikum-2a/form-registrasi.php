@@ -15,7 +15,7 @@ require_once "data-form-regis.php";
 
 <body style="font-size: 18px;">
   <form method="POST" action="hasil-form-regis.php" class="container mt-5">
-    <fieldset class="border border-dark p-3 rounded" style="background-color: lightyellow;">
+    <fieldset class="border border-dark p-3 rounded" style="background-color: yellow;">
       <legend class="float-none w-auto px-3 fw-bold h3">Form Registrasi IT Club Data Science</legend>
       <div class="form-group row">
         <label for="nim" class="col-4 col-form-label">NIM</label>
