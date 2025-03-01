@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<form method="GET" action="data-nilai.php" class="border p-4 rounded">
+<form method="GET" action="nilai-mahasiswa.php" class="border p-4 rounded">
 <fieldset class="border border-dark p-3 rounded" style="background-color: Aqua;">
 <legend class="float-none w-auto px-3 fw-bold h3">Form Nilai Siswa/i</legend>
   <div class="form-group row">
