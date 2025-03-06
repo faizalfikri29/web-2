@@ -82,7 +82,7 @@ if (!empty($proses)) {
     echo '<br/>Nilai UTS : '. $nilai_uts;
     echo '<br/>Nilai UAS : '. $nilai_uas;
     echo '<br/>Nilai Tugas Praktikum : '. $nilai_tugas;
-    echo '<br/>Nilai Akhir : '. number_format($nilai_akhir, 2, ',', '.');
+    echo '<br/>Nilai Akhir : '. $number_format($nilai_akhir, 2, ',', '.');
     echo '<br/>Status : '. $status;
     echo '<br/>Grade : '. $grade;
     echo '<br/>Predikat : '. $predikat;
