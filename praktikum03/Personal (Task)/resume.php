@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Personal - Start Bootstrap Template</title>
+        <title>Personal branding M.F.F._izal</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Custom Google font-->
@@ -44,12 +44,12 @@
                         <!-- Experience Section-->
                         <section>
                             <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h2 class="text-primary fw-bolder mb-0">Experience</h2>
+                                <h2 class="text-primary fw-bolder mb-0">CV</h2>
                                 <!-- Download resume button-->
                                 <!-- Note: Set the link href target to a PDF file within your project-->
                                 <a class="btn btn-primary px-4 py-3" href="#!">
                                     <div class="d-inline-block bi bi-download me-2"></div>
-                                    Download Resume
+                                    Download CV
                                 </a>
                             </div>
                             <!-- Experience Card 1-->
