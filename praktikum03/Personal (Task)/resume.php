@@ -39,7 +39,9 @@
                                                 <div class="small text-muted">Sekretaris Seksi Bidang Keagamaan</div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8"><div>Seksi Bidang Keagamaan OSIS SMKN 1 Gunungputri, bertujuan mewujudkan siswa yang beriman, bertakwa, dan toleran antarumat beragama melalui program seperti peringatan hari besar keagamaan, lomba keagamaan (tartil Al-Qur’an, pidato, kuis agama), kajian rutin setiap Jumat, serta doa bersama lintas agama; Ketua bertanggung jawab merancang dan mengkoordinasikan kegiatan, sementara Sekretaris mengelola administrasi dan dokumentasi, demi mendukung visi sekolah mencetak lulusan berkarakter mulia.</div></div>
+                                        <div class="col-lg-8"><div>Seksi Bidang Keagamaan OSIS SMKN 1 Gunungputri, bertujuan mewujudkan siswa yang beriman, 
+                                            bertakwa, dan toleran antarumat beragama melalui program seperti peringatan hari besar keagamaan, lomba keagamaan (tartil Al-Qur’an, pidato, kuis agama), 
+                                            kajian rutin setiap Jumat, serta doa bersama lintas agama; Ketua bertanggung jawab merancang dan mengkoordinasikan kegiatan, sementara Sekretaris mengelola administrasi dan dokumentasi, demi mendukung visi sekolah mencetak lulusan berkarakter mulia.</div></div>
                                     </div>
                                 </div>
                             </div>
@@ -55,7 +57,13 @@
                                                 <div class="small text-muted">Anggota OSIS</div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-8"><div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga.</div></div>
+                                        <div class="col-lg-8"><div>
+                                       Tugas utamanya meliputi mencatat notulen rapat OSIS, menyusun jadwal kegiatan, 
+                                        mengelola surat-menyurat, dan mendokumentasikan setiap program yang dijalankan oleh anggota OSIS, 
+                                        seperti peringatan hari besar keagamaan, lomba keagamaan (tartil Al-Qur’an, kaligrafi, cerdas cermat),
+                                         kajian rutin, serta doa bersama. Sekretaris Umum bertanggung jawab memastikan komunikasi antara pengurus inti dan anggota OSIS berjalan lancar, memberikan panduan administrasi kepada anggota seksi bidang, dan menyusun laporan pertanggungjawaban 
+                                         untuk mendukung visi sekolah. Dengan peran ini, Sekretaris Umum menjadi jembatan yang menghubungkan kerja anggota OSIS demi tercapainya program yang terorganisir dan bermakna.
+                                        </div></div>
                                     </div>
                                 </div>
                             </div>
