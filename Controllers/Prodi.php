@@ -22,18 +22,18 @@ class Prodi
     }
 
     public function create($data) {
-        $stmt = $this->pdo->prepare("INSERT INTO prodi (kode, nama, kaprodi) VALUES (?,?, ?)");
-        $stmt->execute([$data['kode'], $data['nama'], $data['kaprodi']]);
+        $stmt = $this->pdo->prepare("INSERT INTO prodi (kode, nama, kaprodi) VALUES (?, ?, ?)");
+        return $stmt->execute([$data['kode'], $data['nama'], $data['kaprodi']]);
     }
 
     public function update($id, $data) {
-        $stmt = $this->pdo->prepare("UPDATE prodi SET kode = ?, nama = ?, kaprodi = ? WHERE id=?");
-        $stmt->execute([$data['kode'], $data['nama'], $data['kaprodi']],$id);
+        $stmt = $this->pdo->prepare("UPDATE prodi SET kode = ?, nama = ?, kaprodi = ? WHERE id = ?");
+        return $stmt->execute([$data['kode'], $data['nama'], $data['kaprodi']], $id);
     }
 
     public function delete($id) {
         $stmt = $this->pdo->prepare("DELETE FROM prodi WHERE id = ?");
-        $stmt->execute([$id]);
+        return $stmt->execute([$id]);
     }
 }
 
