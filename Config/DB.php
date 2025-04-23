@@ -4,7 +4,7 @@
  * File ini akan digunakan untuk memanggil database
  */
 $host = "localhost";
-$dbname = "dbkegiatan_dosen";
+$dbname = "db_nilai";
 $username = "root";
 $password = "";
 

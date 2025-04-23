@@ -90,10 +90,11 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="?url=user" class="nav-link">
-                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <a href="?url=users" class="nav-link">
+                        <i class="nav-icon fas fa-th"></i>
                         <p>
-                            users
+                            Dashboard
+                            <span class="right badge badge-danger">New</span>
                         </p>
                     </a>
                 </li>

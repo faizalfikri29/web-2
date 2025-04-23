@@ -1,10 +1,11 @@
 <?php
-require_once('Controllers/Prodi.php');
+require_once("Controllers/Prodi.php");
 
 if (isset($_GET['id'])){
     $id = $_GET['id'];
     $data = $prodi->show($id);
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -15,14 +16,14 @@ if (isset($_GET['id'])){
     <title>Detail Prodi</title>
 </head>
 <body>
-    <h1>Detail Prodi</h1>
-    <?php if($data)?>
-        <p>Kode: <?= $data['kode'] ?></p>
-        <p>Nama: <?= $data['nama'] ?></p>
-        <p>Kaprodi <?= $data['kaprodi'] ?></p>
-    <?phpelse: ?>
-        <p>Data tidak ditemukan</p>
-    <?phpendif: ?>
-    <a href="?url=prodi">Kembali</a>
+   <hi>Detail Prodi</h1>
+   <?php if($data) :?>
+   <p>Kode: <?= $data['kode'] ?></p>
+   <p>Nama: <?= $data['nama'] ?></p>
+   <p>Kaprodi: <?= $data['kaprodi'] ?></p>
+    <?php else: ?>
+    <p>Data tidak ditemukan</p>
+    <?php endif ?>
+    <a href='?url=prodi'>Kembali</a>
 </body>
 </html>

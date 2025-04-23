@@ -27,8 +27,8 @@ class Prodi
     }
 
     public function update($id, $data) {
-        $stmt = $this->pdo->prepare("UPDATE prodi SET kode = ?, nama = ?, kaprodi = ? WHERE id = ?");
-        return $stmt->execute([$data['kode'], $data['nama'], $data['kaprodi']], $id);
+        $stmt = $this->pdo->prepare("UPDATE prodi SET kode = ?, nama = ?, kaprodi = ? WHERE id=?");
+        return $stmt->execute([$data['kode'], $data['nama'], $data['kaprodi'], $id]);
     }
 
     public function delete($id) {
