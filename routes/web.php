@@ -29,12 +29,12 @@ Route::get('/counter', Counter::class);
 // Membuat route untuk halaman list ruang
 Route::get('ruang', ListRuang::class)->name('ruang.index');
 // // Membuat route untuk halaman create ruang
-// Route::get('ruang/create', CreateRuang::class)->name('ruang.create');
+Route::get('ruang/create', CreateRuang::class)->name('ruang.create');
  
 // /**
 //  * Route untuk halaman edit ruang
 //  * dengan parameter ruang di endpoint nya
 //  */
-// Route::get('ruang/edit/{ruang}', EditRuang::class)->name('ruang.edit');
+Route::get('ruang/edit/{ruang}', EditRuang::class)->name('ruang.edit');
 
 require __DIR__.'/auth.php';
