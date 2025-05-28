@@ -15,16 +15,17 @@ class Peminjaman extends Model
         'tanggal',
         'jam_mulai',
         'jam_akhir',
-        'keperluan',
+        'keterangan',
     ];
 
-    public function pegawai(): BelongsTo
+    public function pegawai()
     {
-        return $this->belongsTo(Pegawai::class, 'pegawai_id');
+        return $this->belongsTo(Pegawai::class);
     }
 
-    public function ruang(): BelongsTo
+    public function ruang()
     {
-        return $this->belongsTo(Ruang::class, 'ruang_id');
+        return $this->belongsTo(Ruang::class);
     }
+
 }
