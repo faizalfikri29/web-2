@@ -17,14 +17,21 @@ use App\Livewire\Pegawai\CreatePegawai;
 use App\Livewire\Pegawai\EditPegawai;
 use App\Livewire\Counter;
 use Illuminate\Support\Facades\Route;
+use App\Models\Ruang;
+use App\Models\Pegawai;
+use App\Models\Peminjaman;
 
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
-Route::view('dashboard', 'dashboard')
-    ->middleware(['auth', 'verified'])
-    ->name('dashboard');
+Route::get('dashboard', function () {
+    return view('dashboard', [
+        'totalRuang' => Ruang::count(),
+        'totalPegawai' => Pegawai::count(),
+        'totalPeminjaman' => Peminjaman::count(),
+    ]);
+})->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware(['auth'])->group(function () {
     Route::redirect('settings', 'settings/profile');
